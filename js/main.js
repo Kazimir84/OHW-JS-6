@@ -46,7 +46,7 @@ let stringToarray = (str2) => {
 let str2 = 'Каждый охотник желает знать';
 let arr3 = stringToarray(str2);
 console.log(arr3);
-document.writeln(arr3);
+document.write(arr3);
 
 // - Напишіть функцію delete_characters(str, length), яка повертає підрядок,
 //      що складається із зазначеної кількості символів.
@@ -58,7 +58,7 @@ let delete_characters = (str3, length) => {
     return str3.slice(0, length);
 };
 console.log('Повернутий підрядок: ', delete_characters(str3, 7))
-document.writeln(`<p>Повернутий підрядок:  ${delete_characters(str3, 7)}</p>`); // Каждый
+document.write(`<p>Повернутий підрядок:  ${delete_characters(str3, 7)}</p>`); // Каждый
 
 // - Напишіть функцію insert_dash(str), яка приймає рядок str як аргумент і вставляє тире (-) між словами.
 // При цьому всі символи рядка необхідно перевести у верхній регістр.
@@ -70,7 +70,7 @@ let insert_dash = (str4) => {
     return str4.replaceAll(' ', '-').toUpperCase();
 };
 console.log('Вставляєм тире (-) між словами та всі символи рядка переводимо у верхній регістр', insert_dash(str4));
-document.writeln(`Вставляєм тире (-) між словами та всі символи рядка "HTML JavaScript PHP" переводимо у верхній регістр: ${insert_dash(str4)}`); // 'HTML-JAVASCRIPT-PHP'
+document.write(`Вставляєм тире (-) між словами та всі символи рядка "HTML JavaScript PHP" переводимо у верхній регістр: ${insert_dash(str4)}`); // 'HTML-JAVASCRIPT-PHP'
 
 // - Напишіть функцію, яка приймає рядок як аргумент і перетворює регістр першого символу рядка з нижнього регістру у верхній.
 let str5 = "javaScript";
